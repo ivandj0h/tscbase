@@ -1,5 +1,11 @@
-// Basic or Primitive type
-const paragraph: string = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste rerum delectus sapiente molestiae rem error accusamus nam dignissimos. Ex itaque cumque aut dolorum assumenda unde sunt natus expedita rerum. Veritatis."
+// const paragraph: string = "lore"
+
+const myObj: {
+    paragraph: string
+} = {
+    paragraph: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+}
+
 
 const output = document.getElementById('output');
-if (output) output.innerHTML = paragraph.toString()
+if (output) output.innerHTML = myObj.paragraph.toString()
