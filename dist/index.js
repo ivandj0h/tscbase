@@ -1,2 +1,5 @@
 "use strict";
-let id = 12;
+const paragraph = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste rerum delectus sapiente molestiae rem error accusamus nam dignissimos. Ex itaque cumque aut dolorum assumenda unde sunt natus expedita rerum. Veritatis.";
+const output = document.getElementById('output');
+if (output)
+    output.innerHTML = paragraph.toString();
