@@ -6,7 +6,7 @@
 
 <b>TypeScript</b> is a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.
 
-<strong>Installation</strong>
+- <strong>Installation</strong>
 
 TypeScript can be installed through three installation routes depending on how you intend to use it: an npm module, a NuGet package or a Visual Studio Extension.
 
@@ -14,4 +14,20 @@ If you are using Node.js, you want the npm version. If you are using MSBuild in 
 
 ```bash
 npm install -g typescript
+```
+
+- <strong>Compile</strong>
+
+To compile typescript to javascript just type `tsc <your-typescript-file-name>` this on your terminal
+
+```bash
+tsc index.ts
+```
+
+- <strong>Compile & Watch</strong>
+
+To compile typescript to javascript just type `tsc <your-typescript-file-name> --watch` this on your terminal
+
+```bash
+tsc index.ts --watch
 ```
