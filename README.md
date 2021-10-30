@@ -16,6 +16,14 @@ If you are using Node.js, you want the npm version. If you are using MSBuild in 
 npm install -g typescript
 ```
 
+- <strong>Config</strong>
+
+You can setup configuration file for typescript
+
+```bash
+tsc --init
+```
+
 - <strong>Compile</strong>
 
 To compile typescript to javascript just type `tsc <your-typescript-file-name>` this on your terminal
